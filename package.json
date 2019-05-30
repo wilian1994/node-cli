@@ -1,17 +1,22 @@
 {
-  "name": "module04-arquivos",
+  "name": "cli",
   "version": "1.0.0",
   "description": "",
-  "main": "database.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha -w --reporter nyan"
+    "test": "mocha"
   },
-  "author": "erickwendel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilian1994/node-cli.git"
+  },
+  "author": "Wilian da Silva Oliveira",
   "license": "ISC",
-  "devDependencies": {
-    "mocha": "^5.2.0"
+  "bugs": {
+    "url": "https://github.com/wilian1994/node-cli/issues"
   },
-  "dependencies": {
-    "commander": "^2.18.0"
+  "homepage": "https://github.com/wilian1994/node-cli#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
