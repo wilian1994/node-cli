@@ -18,5 +18,8 @@
   "homepage": "https://github.com/wilian1994/node-cli#readme",
   "devDependencies": {
     "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
