@@ -1,1 +1,1 @@
-[{"nome":"Flash","poder":"Speed","id":1},{"id":1,"nome":"Flash","poder":"Speed"},{"id":1,"nome":"Flash","poder":"Speed"}]
+{"0":{"id":1,"nome":"Flash","poder":"Speed"},"1":{"id":1,"nome":"Flash","poder":"Speed"},"2":{"id":2,"nome":"Lanterna Verde","poder":"Poder do Anel"},"3":{"id":1,"nome":"Flash","poder":"Speed"},"4":{"id":1,"nome":"Flash","poder":"Speed"},"5":{"id":2,"nome":"Lanterna Verde","poder":"Poder do Anel"},"6":{"id":1,"nome":"Flash","poder":"Speed"},"objetoAtualizar":{"id":2,"nome":"Batman","poder":"Dinheiro"}}
