@@ -20,6 +20,8 @@
     "mocha": "^6.1.4"
   },
   "dependencies": {
+    "comander": "0.0.1-security",
+    "commander": "^2.20.0",
     "request": "^2.88.0"
   }
 }
