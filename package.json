@@ -22,6 +22,9 @@
   "dependencies": {
     "comander": "0.0.1-security",
     "commander": "^2.20.0",
-    "request": "^2.88.0"
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.0",
+    "sequelize": "^5.9.0"
   }
 }

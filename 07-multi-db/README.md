@@ -7,6 +7,9 @@ docker run \
     -d \ 
     postgres
 
+## -- rodando o postgres
+docker run -it -d postgres /bin/bash
+
 ## listar os processos
 docker ps   
 
@@ -16,12 +19,7 @@ docker start postgres
 ## para entrar no container
 docker exec -it postgres /bin/bash
 
-docker run \
---name adminer \
--p 8080:8080 \
---link postgres:postgres \ 
--d 
-adminer
+docker run --name adminer -p 8080:8080 --link postgres:postgres -d adminer
 
 ## ---- MONGODB
 docker run 
@@ -38,3 +36,12 @@ docker run \
     -link mongodb:mongodb \
     -d \
     mongoclient:mongoclient \
+
+ ## -- verificando as info do docker host
+ docker info
+
+## -- listando as imagens
+docker images
+
+## -- docker search
+docker search (parametro)
