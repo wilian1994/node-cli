@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/wilian1994/node-cli#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "comander": "0.0.1-security",
